@@ -1,0 +1,10 @@
+<routes>
+    <!-- Declare vehicle types -->
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="13.89" />
+
+    <!-- Routes -->
+    <route id="route_0" edges="E0"/>
+
+    <!-- Single Vehicle -->
+    <vehicle id="veh_0" type="car" route="route_0" depart="0"/>
+</routes>

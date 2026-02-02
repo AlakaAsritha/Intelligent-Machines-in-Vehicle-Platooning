@@ -1,0 +1,5 @@
+<routes>
+    <vType id="car" vClass="passenger" />
+    <route id="route0" edges="1 2 3" />
+    <flow id="flow0" type="car" route="route0" number="1" />
+</routes>

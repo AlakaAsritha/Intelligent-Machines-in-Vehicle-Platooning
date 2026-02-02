@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-25 18:43:40 by Eclipse SUMO netedit Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\alaka\Downloads\laneroute.rou.xml"/>
+        <sumo-net-file value="C:\Users\alaka\Downloads\laneroute.rou.xml.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\alaka\Downloads\laneroute.rou.xml.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</configuration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-33.96,51.13,132.46,52.01" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id="E0" from="J0" to="J1" priority="-1">
+        <lane id="E0_0" index="0" speed="13.89" length="166.42" shape="-34.02,40.81 132.40,39.93"/>
+        <lane id="E0_1" index="1" speed="13.89" length="166.42" shape="-34.00,44.01 132.41,43.13"/>
+        <lane id="E0_2" index="2" speed="13.89" length="166.42" shape="-33.99,47.21 132.43,46.33"/>
+        <lane id="E0_3" index="3" speed="13.89" length="166.42" shape="-33.97,50.41 132.45,49.53"/>
+    </edge>
+
+    <junction id="J0" type="dead_end" x="-33.96" y="52.01" incLanes="" intLanes="" shape="-33.96,52.01 -34.03,39.21"/>
+    <junction id="J1" type="dead_end" x="132.46" y="51.13" incLanes="E0_0 E0_1 E0_2 E0_3" intLanes="" shape="132.39,38.33 132.46,51.13"/>
+
+</net>

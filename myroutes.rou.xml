@@ -1,0 +1,11 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" maxSpeed="13.89" length="5.0"/>
+    
+    <!-- Valid routes based on your edges -->
+    <route id="route1" edges="E0 E1"/>          <!-- From J0 to J1 to J2 -->
+    <route id="route2" edges="E0 E2"/>          <!-- From J0 to J1 to J3 -->
+    
+    <!-- Define vehicles using the routes -->
+    <vehicle id="vehicle1" type="car" route="route1" depart="0"/>
+    <vehicle id="vehicle2" type="car" route="route2" depart="10"/>
+</routes>

@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="C:\Users\alaka\Downloads\progress.net.xml"/>
+        <route-files value="C:\Users\alaka\Downloads\progressrou.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="100"/>
+    </time>
+</configuration>

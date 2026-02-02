@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+        <net-file value="C:\Users\alaka\Downloads\simple.net.xml"/>
+        <route-file value="C:\Users\alaka\Downloads\simple rou.xml"/>
+    </input>
+</configuration>
