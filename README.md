@@ -1,4 +1,4 @@
-# Intelligent Machines in Vehicle Platooning 🚗🚗🚗  
+# Intelligent Machines in Vehicle Platooning 
 ### Python-Based Simulation of Vehicular Communication Protocols
 
 This project presents a Python-based simulation framework for analyzing intelligent vehicle platooning using multiple vehicular communication protocols. The goal is to evaluate how different protocols affect platoon performance in terms of latency, reliability, and network efficiency.
